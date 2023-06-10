@@ -149,4 +149,77 @@ menu li {
   font-size: 100%;
   line-height: 100%;
   font-family: "Roboto", sans-serif;
+}
+
+.firstSection {
+  width: 100%;
+  height: 697px;
+}
+.firstSection .con-firstSection {
+  height: 697px;
+  display: flex;
+  flex-direction: row;
+}
+.firstSection .con-firstSection .col-7 {
+  width: 58.34%;
+}
+.firstSection .con-firstSection .col-7 .leftTextBoxFS {
+  height: 60%;
+  width: 90%;
+  margin-top: 130px;
+}
+.firstSection .con-firstSection .col-7 .leftTextBoxFS .titleFS {
+  height: 55px;
+  width: 360px;
+}
+.firstSection .con-firstSection .col-7 .leftTextBoxFS .titleFS p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 74px;
+  line-height: 55px;
+}
+.firstSection .con-firstSection .col-7 .leftTextBoxFS .textFS {
+  height: 119px;
+  width: 100%;
+  margin-top: 80px;
+}
+.firstSection .con-firstSection .col-7 .leftTextBoxFS .textFS p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 45px;
+}
+.firstSection .con-firstSection .col-7 .leftTextBoxFS .shopButtomFS {
+  height: 119px;
+  width: 100%;
+  margin-top: 50px;
+}
+.firstSection .con-firstSection .col-7 .leftTextBoxFS .shopButtomFS .shopNow {
+  height: 65px;
+  width: 35%;
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+}
+.firstSection .con-firstSection .col-7 .leftTextBoxFS .shopButtomFS .shopNow img {
+  margin: 15px 0 0 20px;
+}
+.firstSection .con-firstSection .col-7 .leftTextBoxFS .shopButtomFS .shopNow p {
+  margin: 15px 0 0 15px;
+  color: white;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.con-secondSection {
+  height: 697px;
+}
+.con-secondSection .col-5 {
+  width: 41.66%;
+  background-color: burlywood;
 }/*# sourceMappingURL=Coral.css.map */
