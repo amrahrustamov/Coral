@@ -34,6 +34,84 @@ header {
   height: 100%;
 }
 
+.dis-flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.textAndDecor {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 34px;
+  width: 100%;
+  background-color: aquamarine;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.headerDecor {
+  height: 30px;
+  width: 25%;
+}
+
+.boxInLeftDecor {
+  background-color: bisque;
+  height: 70%;
+  width: 30px;
+  float: right;
+  margin: 5px 0;
+}
+
+.boxInRightDecor {
+  background-color: bisque;
+  height: 70%;
+  width: 30px;
+  margin: 5px 0;
+}
+
+.leftDecor, .rightDecor {
+  background-color: burlywood;
+  width: 50%;
+}
+
+.firstIcon, .secondIcon, .thirdIcon {
+  top: 10%;
+}
+
+.secondIcon {
+  left: 7.5px;
+}
+
+.thirdIcon {
+  left: 15px;
+}
+
+.nameOfSite {
+  width: 100px;
+  margin-left: 5px;
+}
+
+.rightDecor {
+  margin-left: 5px;
+}
+
+.textAndDecor p {
+  font-size: 25px;
+  font-family: "AmstelvarAlpha";
+  font-style: normal;
+}
+
+.textAndDecor {
+  justify-content: center;
+}
+
 .leftPartOfHeader {
   background-color: green;
 }
