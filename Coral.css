@@ -129,6 +129,24 @@ a {
 .buttomHeader {
   height: 50%;
   width: 100%;
-  background-color: aqua;
   border-top: 1px solid #E3E3E3;
+}
+
+.menu ul {
+  list-style-type: none;
+  justify-content: space-between;
+  margin-top: 25px;
+  width: 100%;
+}
+
+menu li {
+  width: 100%;
+}
+
+.menu p {
+  font-style: normal;
+  font-weight: 100%;
+  font-size: 100%;
+  line-height: 100%;
+  font-family: "Roboto", sans-serif;
 }/*# sourceMappingURL=Coral.css.map */
