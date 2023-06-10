@@ -70,11 +70,36 @@
             }
         }
     }
-}
-.con-secondSection {
-    height: 697px;
     .col-5 {
-        width: 41.66%;
-        background-color: burlywood;
+        width: 42.66%;
+    }
+    .con-secondSection {
+        height: 697px;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+
+        .decorFS {          
+            width: 60%;
+            height: 70%;
+            margin-top: 70px;
+        }
+        .modelGirl {
+            width: 60%;
+            height: 70%;
+            position: absolute;
+            top: 8%;
+            right: 43%;
+            border-radius: 120px 0 120px 0;       
+        }
+        .decorFloverFS {
+            height: 261px;
+            width: 194px;
+            transform: rotate(-25deg);
+            position: absolute;
+            left: 100%;
+            top: 50%;
+            
+        }
     }
 }
