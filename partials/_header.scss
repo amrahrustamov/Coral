@@ -1,6 +1,5 @@
 
 header {
-    background-color: red;
     width: 100%;
     height: 150px;
     padding: 15px 0;
@@ -16,7 +15,6 @@ width: 33.33%;
     width: $containerWidth;
     height: 100%;
     margin: 0 10%;
-    background-color: aqua;
 }
 
 @mixin headersSize{
@@ -27,10 +25,12 @@ width: 33.33%;
     @include headersSize;
     display: flex;
     flex-direction: row;
-    background-color: rgb(56, 53, 53);
 }
 .leftPartOfHeader, .middlePartOfHeader, .rightPartOfHeader{
     height: 100%;
+}
+.justify-content {
+    justify-content: end;
 }
 .dis-flex-row {
     display: flex;
@@ -42,7 +42,6 @@ width: 33.33%;
     justify-content: center;
     height: 34px;
     width:100%;
-    background-color: aquamarine;
 }
 .relative {
     position: relative;
@@ -55,20 +54,18 @@ width: 33.33%;
     width: 25%;
 }
 .boxInLeftDecor {
-    background-color: bisque;
+
     height: 70%;
     width: 30px;
     float: right;
     margin: 5px 0;
 }
 .boxInRightDecor {
-    background-color: bisque;
     height: 70%;
     width: 30px;
     margin: 5px 0;
 }
 .leftDecor, .rightDecor{
-    background-color: burlywood;
     width: 50%;
 }
 .firstIcon, .secondIcon, .thirdIcon{
@@ -97,17 +94,17 @@ width: 33.33%;
     justify-content: center;
 }
 
+.margin-left-5px{
+    margin-right: 5px;
+}
+.margin-top-5px {
+    margin-top: 5px;   
+}
+.font-family-roboto {
+    font-family: 'Roboto', sans-serif;
+}
 
 
-.leftPartOfHeader {
-    background-color: green;
-}
-.middlePartOfHeader {
-    background-color: yellow;
-}
-.rightPartOfHeader {
-    background-color: aqua
-}
 
 
 .buttomHeader {
