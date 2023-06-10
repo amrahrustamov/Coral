@@ -1,1 +1,53 @@
-/*# sourceMappingURL=Coral.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: red;
+  width: 100%;
+  height: 150px;
+  padding: 15px 0;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.container {
+  width: 80%;
+  height: 100%;
+  margin: 0 10%;
+  background-color: aqua;
+}
+
+.topHeader {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(56, 53, 53);
+}
+
+.leftPartOfHeader, .middlePartOfHeader, .rightPartOfHeader {
+  height: 100%;
+}
+
+.leftPartOfHeader {
+  background-color: green;
+}
+
+.middlePartOfHeader {
+  background-color: yellow;
+}
+
+.rightPartOfHeader {
+  background-color: aqua;
+}
+
+.buttomHeader {
+  height: 50%;
+  width: 100%;
+  background-color: bisque;
+}/*# sourceMappingURL=Coral.css.map */

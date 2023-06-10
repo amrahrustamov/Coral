@@ -1,0 +1,51 @@
+
+header {
+    background-color: red;
+    width: 100%;
+    height: 150px;
+    padding: 15px 0;
+}
+
+$containerWidth: 80%;
+
+.col-4 {
+width: 33.33%;
+}
+
+.container {
+    width: $containerWidth;
+    height: 100%;
+    margin: 0 10%;
+    background-color: aqua;
+}
+
+@mixin headersSize{
+    height: 50%;
+    width: 100%;
+}
+.topHeader {
+    @include headersSize;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(56, 53, 53);
+}
+.leftPartOfHeader, .middlePartOfHeader, .rightPartOfHeader{
+    height: 100%;
+}
+
+
+.leftPartOfHeader {
+    background-color: green;
+}
+.middlePartOfHeader {
+    background-color: yellow;
+}
+.rightPartOfHeader {
+    background-color: aqua
+}
+
+
+.buttomHeader {
+    @include headersSize;
+    background-color: bisque;
+}
