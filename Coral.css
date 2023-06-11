@@ -317,17 +317,14 @@ menu li {
 
 .thirdSection {
   width: 100%;
-  height: 800px;
-  background-color: yellow;
+  height: 1140px;
 }
 .thirdSection .con-thirdSection {
   height: 800px;
-  background-color: green;
 }
 .thirdSection .con-thirdSection .textTS {
   width: 100%;
   height: 59px;
-  background-color: aqua;
   font-family: "Roboto";
   font-style: normal;
   font-size: 50px;
@@ -338,7 +335,6 @@ menu li {
 .thirdSection .con-thirdSection .typesOfClothes {
   height: 32px;
   width: 100%;
-  background-color: blue;
   margin-top: 30px;
   display: flex;
   flex-direction: row;
@@ -348,7 +344,6 @@ menu li {
   height: 100%;
   display: flex;
   flex-direction: row;
-  background-color: blueviolet;
 }
 .thirdSection .con-thirdSection .typesOfClothes .leftPart div {
   height: 32px;
@@ -370,7 +365,6 @@ menu li {
   height: 100%;
   display: flex;
   justify-content: end;
-  background-color: brown;
 }
 .thirdSection .con-thirdSection .typesOfClothes .rightPart .filterBox {
   width: 92px;
@@ -389,12 +383,10 @@ menu li {
 }
 .thirdSection .con-thirdSection .gridClothesTS {
   height: 1000px;
-  background-color: rgb(0, 183, 255);
 }
 .thirdSection .con-thirdSection .gridClothesTS .topListTS {
   width: 100%;
   height: 500px;
-  background-color: bisque;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -405,13 +397,9 @@ menu li {
   display: flex;
   flex-direction: column;
 }
-.thirdSection .con-thirdSection .gridClothesTS .topListTS div img {
-  border: 1px solid black;
-}
 .thirdSection .con-thirdSection .gridClothesTS .topListTS div .name {
   width: 189px;
   height: 22px;
-  border: 1px solid black;
   margin: 20px 0 0 10%;
 }
 .thirdSection .con-thirdSection .gridClothesTS .topListTS div .name p {
@@ -429,7 +417,6 @@ menu li {
 }
 .thirdSection .con-thirdSection .gridClothesTS .topListTS div .type {
   width: 50%;
-  border: 1px solid black;
   height: 22px;
   margin: 20px 0 0 10%;
 }
@@ -444,7 +431,6 @@ menu li {
 .thirdSection .con-thirdSection .gridClothesTS .topListTS div .price {
   width: 50%;
   height: 100%;
-  border: 1px solid black;
   display: flex;
   flex-direction: row;
   margin: 20px 0 0 60%;
@@ -456,9 +442,11 @@ menu li {
   font-size: 16px;
   line-height: 22px;
   color: black;
-  border: 1px solid black;
   height: 22px;
   margin-left: 10px;
+}
+.thirdSection .con-thirdSection .gridClothesTS .topListTS div .price .set {
+  margin-left: 5px;
 }
 .thirdSection .con-thirdSection .gridClothesTS .topListTS div .newAndOld {
   margin-left: 20%;

@@ -1,16 +1,13 @@
 .thirdSection {
     width: 100%;
-    height: 800px;
-    background-color: yellow;
+    height: 1140px;
 
     .con-thirdSection {
         height: 800px;
-        background-color: green;
 
         .textTS {
             width: 100%;
             height: 59px;
-            background-color: aqua;
             font-family: 'Roboto';
             font-style: normal;
             font-size: 50px;
@@ -21,7 +18,6 @@
         .typesOfClothes {
             height: 32px;
             width: 100%;
-            background-color: blue;
             margin-top: 30px;
             display: flex;
             flex-direction: row;
@@ -31,7 +27,6 @@
                 height: 100%;
                 display: flex;
                 flex-direction: row;
-                background-color: blueviolet;
 
                 div {
                     height: 32px;
@@ -57,7 +52,6 @@
                 height: 100%;
                 display: flex;
                 justify-content: end;
-                background-color: brown;
 
                 .filterBox {
                     width: 92px;
@@ -81,12 +75,10 @@
 
         .gridClothesTS {
             height: 1000px;
-            background-color: rgb(0, 183, 255);
 
             .topListTS {
                 width: 100%;
                 height: 500px;
-                background-color: bisque;
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;
@@ -97,14 +89,9 @@
                     display: flex;
                     flex-direction: column;
 
-                    img {       
-                        border: 1px solid black;
-                    }
-
                     .name {
                         width: 189px;
                         height: 22px;
-                        border: 1px solid black;
                         margin: 20px 0 0 10%;
                     }
 
@@ -124,7 +111,6 @@
 
                         .type {
                             width: 50%;
-                            border: 1px solid black;
                             height: 22px;
                             margin: 20px 0 0 10%;
                             
@@ -140,7 +126,6 @@
                         .price {
                             width: 50%;
                             height: 100%;
-                            border: 1px solid black;
                             display: flex;
                             flex-direction: row;
                             margin: 20px 0 0 60%;
@@ -152,10 +137,12 @@
                                 font-size: 16px;
                                 line-height: 22px;
                                 color: black;
-                                border: 1px solid black;
                                 height: 22px;
                                 margin-left: 10px;
                                 
+                            }
+                            .set {
+                                margin-left: 5px;
                             }
                         }
                         .newAndOld {
