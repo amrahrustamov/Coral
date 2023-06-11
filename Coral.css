@@ -535,4 +535,88 @@ menu li {
   font-size: 29px;
   line-height: 34px;
   margin: 20px 0 0 20px;
+}
+
+.fifthSection {
+  height: 700px;
+}
+
+.sixthSection {
+  width: 100%;
+  height: 754px;
+}
+.sixthSection .sixth-container {
+  height: 100%;
+}
+.sixthSection .sixth-container .textAndImg {
+  width: 100%;
+  height: 60%;
+}
+.sixthSection .sixth-container .textAndImg .text {
+  height: 55%;
+  padding-top: 100px;
+}
+.sixthSection .sixth-container .textAndImg .text p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 59px;
+  text-align: center;
+}
+.sixthSection .sixth-container .textAndImg .img {
+  height: 45%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.sixthSection .sixth-container .textAndInput {
+  width: 100%;
+  height: 40%;
+  padding: 5% 20%;
+}
+.sixthSection .sixth-container .textAndInput .con-textAndInput {
+  width: 760px;
+  height: 165px;
+}
+.sixthSection .sixth-container .textAndInput .con-textAndInput .text {
+  width: 707px;
+  height: 59px;
+  margin: 0 3.5%;
+  text-align: center;
+}
+.sixthSection .sixth-container .textAndInput .con-textAndInput .text p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 59px;
+}
+.sixthSection .sixth-container .textAndInput .con-textAndInput .inputAndSubmit {
+  height: 32px;
+  width: 100%;
+  margin-top: 74px;
+  display: flex;
+  flex-direction: row;
+}
+.sixthSection .sixth-container .textAndInput .con-textAndInput .inputAndSubmit .input {
+  width: 80%;
+  margin-right: 20%;
+  border-bottom: 2px solid black;
+}
+.sixthSection .sixth-container .textAndInput .con-textAndInput .inputAndSubmit .submit {
+  border-bottom: 2px solid black;
+}
+.sixthSection .sixth-container .textAndInput .con-textAndInput .inputAndSubmit #inputEmail {
+  width: 100%;
+  height: 30px;
+  border-style: none;
+}
+.sixthSection .sixth-container .textAndInput .con-textAndInput .inputAndSubmit a p {
+  margin-top: 5px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
 }/*# sourceMappingURL=Coral.css.map */
