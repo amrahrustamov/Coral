@@ -408,6 +408,19 @@ menu li {
 .thirdSection .con-thirdSection .gridClothesTS .topListTS div img {
   border: 1px solid black;
 }
+.thirdSection .con-thirdSection .gridClothesTS .topListTS div .name {
+  width: 189px;
+  height: 22px;
+  border: 1px solid black;
+  margin: 20px 0 0 10%;
+}
+.thirdSection .con-thirdSection .gridClothesTS .topListTS div .name p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+}
 .thirdSection .con-thirdSection .gridClothesTS .topListTS .img {
   height: 80%;
 }
