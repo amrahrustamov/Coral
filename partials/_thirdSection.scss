@@ -29,12 +29,53 @@
             .leftPart {
                 width: 50%;
                 height: 100%;
+                display: flex;
+                flex-direction: row;
                 background-color: blueviolet;
+
+                div {
+                    height: 32px;
+                    margin: 4px 5% 0 0 ;
+
+                    a p {
+                            font-family: 'Open Sans';
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 16px;
+                            line-height: 22px;
+                            color: rgba(0, 0, 0, 0.5);
+                    }                    
+                }
+                .allProducts {                  
+                    a p {
+                        color: black;                        
+                    }                  
+                }
             }
             .rightPart {
                 width: 50%;
                 height: 100%;
+                display: flex;
+                justify-content: end;
                 background-color: brown;
+
+                .filterBox {
+                    width: 92px;
+                    height: 32px;
+                    background-color: black;
+                    
+                    a {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        margin-top: 7px;
+                        
+                        p {
+                            color: white;
+                            margin-left: 9px;
+                        }
+                    }
+                }
             }
         }
     }
