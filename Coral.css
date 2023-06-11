@@ -489,4 +489,15 @@ menu li {
 .fourthSection .zaraLogoBig img {
   height: 100%;
   width: 100%;
+}
+.fourthSection .zaraLogoMini {
+  height: 81px;
+  width: 191px;
+  position: absolute;
+  top: 200px;
+  left: 60%;
+}
+.fourthSection .zaraLogoMini img {
+  height: 100%;
+  width: 100%;
 }/*# sourceMappingURL=Coral.css.map */
