@@ -468,4 +468,12 @@ menu li {
 }
 .thirdSection .con-thirdSection .gridClothesTS .topListTS .typeAndPrice {
   height: 10%;
+}
+
+.fourthSection {
+  background-image: url("../assets/img/redWomanBackgroun.png");
+  height: 876px;
+  width: 100%;
+  background-repeat: no-repeat;
+  margin: 0 3%;
 }/*# sourceMappingURL=Coral.css.map */
