@@ -500,4 +500,26 @@ menu li {
 .fourthSection .zaraLogoMini img {
   height: 100%;
   width: 100%;
+}
+.fourthSection .textAndButton {
+  height: 314px;
+  width: 504px;
+  position: absolute;
+  top: 320px;
+  left: 60%;
+  border: 1px solid rgb(226, 220, 220);
+}
+.fourthSection .textAndButton .text {
+  height: 187px;
+  width: 504px;
+  border: 1px solid rgb(226, 220, 220);
+}
+.fourthSection .textAndButton .text p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 40px;
+  color: white;
+  text-transform: capitalize;
 }/*# sourceMappingURL=Coral.css.map */
