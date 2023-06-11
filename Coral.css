@@ -386,4 +386,37 @@ menu li {
 .thirdSection .con-thirdSection .typesOfClothes .rightPart .filterBox a p {
   color: white;
   margin-left: 9px;
+}
+.thirdSection .con-thirdSection .gridClothesTS {
+  height: 1000px;
+  background-color: rgb(0, 183, 255);
+}
+.thirdSection .con-thirdSection .gridClothesTS .topListTS {
+  width: 100%;
+  height: 500px;
+  background-color: bisque;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.thirdSection .con-thirdSection .gridClothesTS .topListTS div {
+  width: 100%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+.thirdSection .con-thirdSection .gridClothesTS .topListTS div img {
+  border: 1px solid black;
+}
+.thirdSection .con-thirdSection .gridClothesTS .topListTS .img {
+  height: 80%;
+}
+.thirdSection .con-thirdSection .gridClothesTS .topListTS .img img {
+  height: 100%;
+}
+.thirdSection .con-thirdSection .gridClothesTS .topListTS .name {
+  height: 10%;
+}
+.thirdSection .con-thirdSection .gridClothesTS .topListTS .typeAndPrice {
+  height: 10%;
 }/*# sourceMappingURL=Coral.css.map */
