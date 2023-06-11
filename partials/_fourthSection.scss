@@ -1,7 +1,23 @@
 .fourthSection {
-    background-image: url("../assets/img/redWomanBackgroun.png");
     height: 876px;
     width: 100%;
-    background-repeat: no-repeat;
-    margin: 0 3%;
+    position: relative;
+
+    img {
+        width: 100%;
+        height: 876px;
+    }
+    .zaraLogoBig {
+        height: 204px;
+        width: 504px;
+        position: absolute;
+        top: 100px;
+        left: 70%;
+
+        img {
+            height: 100%;
+            width: 100%;
+        }
+    }
+
 }
