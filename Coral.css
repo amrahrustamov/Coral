@@ -632,7 +632,6 @@ menu li {
 footer {
   width: 100%;
   height: 400px;
-  background-color: aquamarine;
 }
 footer .top {
   height: 205px;
@@ -688,4 +687,60 @@ footer .top .list {
 }
 footer .top .list a p {
   margin-bottom: 8px;
+}
+footer .buttom {
+  height: 52px;
+  width: 100%;
+  background: #1E2832;
+}
+footer .buttom .buttom-con {
+  display: flex;
+  flex-direction: row;
+}
+footer .buttom .buttom-con .madeBy {
+  height: 100%;
+  width: 32%;
+}
+footer .buttom .buttom-con .madeBy img {
+  margin-top: 15px;
+}
+footer .buttom .buttom-con .paymentList {
+  height: 100%;
+  width: 36%;
+  display: flex;
+  justify-content: center;
+}
+footer .buttom .buttom-con .paymentList img {
+  height: 24px;
+  width: 100;
+  margin-top: 12px;
+}
+footer .buttom .buttom-con .scroolToTop {
+  height: 100%;
+  width: 32%;
+  display: flex;
+  flex-direction: row;
+}
+footer .buttom .buttom-con .scroolToTop a {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  margin: 12px 10px 0 0;
+}
+footer .buttom .buttom-con .scroolToTop a p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: white;
+  margin-right: 10px;
+}
+footer .buttom .buttom-con .scroolToTop a img {
+  width: 16px;
+  height: 14px;
+  margin-top: 2px;
 }/*# sourceMappingURL=Coral.css.map */
