@@ -627,7 +627,6 @@ menu li {
 
 .maxPercentHeight {
   height: 100%;
-  border: 1px solid black;
 }
 
 footer {
@@ -637,7 +636,6 @@ footer {
 }
 footer .top {
   height: 205px;
-  background-color: yellow;
   display: flex;
   flex-direction: row;
 }
@@ -668,6 +666,26 @@ footer .top .first .buttomPart .boxInButtomPart {
   justify-content: space-between;
 }
 footer .top .first .buttomPart a img {
-  width: 20px;
-  height: 19px;
+  width: 15px;
+  height: 15px;
+}
+footer .top .title {
+  width: 100%;
+  height: 22px;
+  margin-bottom: 22px;
+}
+footer .top .title p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: capitalize;
+}
+footer .top .list {
+  width: 100%;
+  height: 160px;
+}
+footer .top .list a p {
+  margin-bottom: 8px;
 }/*# sourceMappingURL=Coral.css.map */
