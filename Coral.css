@@ -640,4 +640,34 @@ footer .top {
   background-color: yellow;
   display: flex;
   flex-direction: row;
+}
+footer .top .first .topPart {
+  height: 66px;
+  width: 100%;
+}
+footer .top .first .middlePart {
+  height: 84px;
+  width: 100%;
+}
+footer .top .first .middlePart p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: capitalize;
+}
+footer .top .first .buttomPart {
+  height: 54px;
+  width: 100%;
+}
+footer .top .first .buttomPart .boxInButtomPart {
+  height: 54px;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+footer .top .first .buttomPart a img {
+  width: 20px;
+  height: 19px;
 }/*# sourceMappingURL=Coral.css.map */
